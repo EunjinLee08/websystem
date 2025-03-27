@@ -13,6 +13,7 @@
 		#check {   /* 텍스트 부분을 감싸는 div */
 			width:640px;  /* 너비 - 그림 너비 값에 맞춤 */
 			border:1px solid #ccc;  /* 테두리 */
+			text-align: center;
 		}		
 		h1 {
 			color: white; /* 글자색 */
@@ -24,13 +25,11 @@
         h2 {
             color: rgb(180, 0, 0);
             size: 1.5em;
-            text-align: center;
         }
         p {
             font-size: 1.3em;
             line-height: 1.5em;
             font-weight: bold;
-            text-align: center;
         }
         .accent {
             color: #1919b5;
@@ -41,6 +40,9 @@
 		#topimage {
 			position: relative;
 		}
+		#head_h2{
+			color: white;
+		}
 		.head {
 			position: absolute;
 			background-color: rgba(0,0,0,0.5);
@@ -49,7 +51,7 @@
 			transform: translate();
 			text-align: left;
 			width: 98.6%;
-			color: white;
+			color: yellow;
 		}
 		img {
 			width: 98.6%;
@@ -62,8 +64,10 @@
 		<div id="topimage">
 		<img src="top.png" alt="가정용 꿀사과 - 흠집이 있고 약간은 못생겼지만 맛과 영양은 그대로입니다. 질좋은 사과를 저렴하게 즐겨보세요">	
 		<span class="head">
-			<h2>가정용 꿀사과</h2>
-			<p>흠집이 있고 약간은 못생겼지만 맛과 영양은 그대로입니다.<br> 질좋은 사과를 저렴하게 즐겨보세요</p>	
+			<h2 id="head_h2">&emsp;가정용 꿀사과</h2>
+			<p>&emsp;흠집이 있고 약간은 못생겼지만 맛과 영양은 그대로입니다.<br>
+				&emsp;질좋은 사과를 저렴하게 즐겨보세요
+			</p>	
 		</span>
 		</div>
 		<div id="check">
