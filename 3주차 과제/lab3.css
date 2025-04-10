@@ -1,0 +1,144 @@
+header {
+    background-color: navy;
+    padding: 30px;
+    color: white;
+}
+
+.main-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+
+}
+.second-title {
+    font-weight: 600;
+    margin: 10px;
+    opacity: 70%;
+    padding-bottom: 20px;
+}
+
+.navbar .row .col-3 {
+    padding: 20px;
+}
+
+.dropdown-menu {
+    text-align: left;
+    background-color: navy;
+    opacity: 80%;
+    
+}
+
+.dropdown-item {
+    color: white;
+    font-weight: 300;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle:hover {
+    opacity: 80%;
+    font-weight: 500;
+}
+
+.title {
+    text-align: left;
+}
+
+.aside {
+    flex: 0 0 220px;
+}
+
+.aside-left {
+    width: 220px;
+    min-height: calc(100vh - 203px);
+    position: fixed;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    overflow-y: auto;
+    top: 203px;
+}
+
+.aside-right {
+    width: 220px;
+    min-height: calc(100vh - 203px);
+    position: fixed;
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: auto;
+    top: 203px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-section {
+    flex: 0 0 calc(100% - 450px);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.image {
+    width: 300px;
+    flex: 0 0 300px;
+    margin: 10px
+}
+
+.login {
+    background-color: navy;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    padding: 15px 0px 15px 15px;
+}
+
+.login-title {
+    margin: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+.ad {
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: aliceblue;
+}
+
+.article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.footer-msg:hover{
+    opacity: 80%;
+}
